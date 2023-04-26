@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "sort.h"
 /**
   * selection_sort - selection sort algorithm
