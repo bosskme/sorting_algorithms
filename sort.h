@@ -31,5 +31,7 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void merge_sort_helper(int *array, int *temp, int left, int right)
+void merge(int *array, int *temp, int left, int right)
 
 #endif
